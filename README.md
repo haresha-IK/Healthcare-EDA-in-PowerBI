@@ -1,24 +1,45 @@
-# student-performance-SQL
-SQL Server project to analyze student performance with 500+ students and multiple subjects.
-# Student Performance Analysis (SQL / SQL Server)
+Healthcare EDA in Power BI
+🔍 Project Overview
 
-Project Overview
-This project designs and implements a **relational database** to analyze the performance of 500+ simulated students across 8 subjects.  
-It demonstrates use of **SQL Server (SSMS)** and **T-SQL** for analytics reporting.
+This project performs Exploratory Data Analysis (EDA) on a healthcare dataset using Microsoft Power BI.
+It aims to uncover patterns, trends, and insights about patients, doctors, hospitals, and billing behavior.
 
-Features
-- Created database with 3 tables: Students, Subjects, Marks.
-- Inserted **500 students** automatically using a loop.
-- Assigned random scores for students across subjects.
-- Queries include:
-  - Top 3 students per subject/class (using `RANK()` + `PARTITION BY`).
-  - Average marks per subject.
-  - Students failing more than 2 subjects.
-- Produced management-ready outputs.
+Objectives
 
-##  Tools Used
-- SQL Server (SSMS)
-- T-SQL
-- Git / GitHub
-  
+Clean and analyze healthcare-related data
 
+Find trends in billing, admissions, and medical conditions
+
+Visualize patient demographics and hospital performance
+
+Use Power BI DAX measures to calculate key performance metrics (KPIs)
+
+Key Insights 
+
+Total Billing Amount: 💵 1.03 Billion
+Average Billing Amount: 💳 25.51K
+Total Patients: 👥 14.24K
+Average Stay Duration: ⏱️ 15 Days
+Top Doctors: 🩺 Michael Smith > John Smith > David Smith
+Active Months: 📆 May–August had the highest admissions.
+
+Tools Used
+
+Microsoft Power BI — Visualization and analysis
+DAX (Data Analysis Expressions) — Custom formulas and KPIs
+Excel / CSV — Dataset format
+
+
+⚙️ How to Use
+
+Download Healthcare_EDA.pbix file.
+Open it in Microsoft Power BI Desktop.
+Explore visuals, filters, and slicers to interact with data.
+Optionally, modify or extend with your own dataset.
+
+⭐ Project Highlights
+
+✅ Real-world healthcare dataset
+✅ Power BI DAX and visualization skills
+✅ Interactive dashboard with KPIs
+✅ Professionally documented for data analyst portfolios
